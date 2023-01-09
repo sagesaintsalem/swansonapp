@@ -1,0 +1,13 @@
+body {
+    background-color: chocolate;
+    display: flex;
+    padding-top: 1rem;
+    justify-content: center;
+
+}
+
+.wisdom {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+

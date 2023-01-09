@@ -1,0 +1,5 @@
+.search-area {
+    padding:2rem;
+    display: grid;
+    align-content: space-around;
+}
