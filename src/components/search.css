@@ -3,3 +3,13 @@
     display: grid;
     align-content: space-around;
 }
+
+.search-results {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}

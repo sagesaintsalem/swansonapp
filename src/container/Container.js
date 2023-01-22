@@ -13,6 +13,7 @@ const Container = () => {
         fetch('http://ron-swanson-quotes.herokuapp.com/v2/quotes/')
         .then(res => res.json())
         .then(quote => setAQuote(quote))
+        
     }
 
     return (

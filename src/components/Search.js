@@ -13,6 +13,7 @@ const Search = () => {
         fetch(`http://ron-swanson-quotes.herokuapp.com/v2/quotes/search/${term}`)
         .then(res => res.json())
         .then(quote => setsearchResults(quote))
+        console.log(searchResults)
     }
 
 
